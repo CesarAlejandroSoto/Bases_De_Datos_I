@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Página Web Ejecutable</title>
+    <script>
+        function saludar() {
+            alert('¡Hola! Bienvenido a mi página web ejecutable.');
+        }
+    </script>
+</head>
+<body>
+    <h1>Página Web Ejecutable</h1>
+    <button onclick="saludar()">Haz clic para saludar</button>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Página Web con Imagen</title>
+    <style>
+        /* Estilos CSS para centrar la imagen */
+        #imagen {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+    <script>
+        function mostrarImagen() {
+            var imagen = document.getElementById("imagen");
+            imagen.style.display = "block"; // Mostrar la imagen
+        }
+    </script>
+</head>
+<body>
+    <h1>Página Web con Imagen</h1>
+    <button onclick="mostrarImagen()">Mostrar Imagen</button>
+    <img id="imagen" src="ejemplo.jpg" style="display: none;" alt="Imagen de ejemplo">
+</body>
+</html>
